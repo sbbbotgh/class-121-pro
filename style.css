@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    scrollbar-width: thin;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.header{
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.test_image_and_result{
+    box-shadow: 1px 1px 30px rgb(51, 51, 51);
+    width: 80%;
+    height: 70%;
+    background-color: #333;
+    color: whitesmoke;
+    border-radius: 40px;
+    float: none;
+    padding: 25px;
+    margin-bottom: 80px;
+}
+
+.main_title{
+    box-shadow: 1px 1px 20px whitesmoke;
+    background-color: whitesmoke;
+    color: #333;
+    border-radius: 10px;
+    line-height: 1.5;
+    padding: 5px;
+}
+
+b{
+    color:red;
+}
+
+.alert{
+    margin-bottom: 80px;
+    font-size: large;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.copy_right_footer{
+    width: 100%;
+    bottom: 0px;
+    color: #333;
+    line-height: 3;
+    position: fixed;
+    background-color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 5px 0px 10px rgba(51, 51, 51, 0.8);
+}
